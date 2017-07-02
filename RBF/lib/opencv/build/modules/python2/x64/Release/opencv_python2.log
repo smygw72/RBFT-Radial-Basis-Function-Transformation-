@@ -1,0 +1,8 @@
+﻿  Generating pyopencv_generated_include.h, pyopencv_generated_funcs.h, pyopencv_generated_types.h, pyopencv_generated_type_reg.h, pyopencv_generated_ns_reg.h
+  C:\Users\sho-m\Anaconda3\lib\re.py:203: FutureWarning: split() requires a non-empty pattern match.
+    return _compile(pattern, flags).split(string, maxsplit)
+  cv2.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+LINK : fatal error LNK1104: ファイル 'C:\dev\opencv\build\x64\Release\cv2.cp35-win_amd64.pyd' を開くことができません。

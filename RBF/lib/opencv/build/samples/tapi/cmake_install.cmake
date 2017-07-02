@@ -1,0 +1,93 @@
+# Install script for directory: C:/dev/opencv/sources/samples/tapi
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/dev/opencv/build/install")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-bgfg_segm.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-bgfg_segm.exe")
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-camshift.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-camshift.exe")
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-clahe.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-clahe.exe")
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-hog.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-hog.exe")
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-pyrlk_optical_flow.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-pyrlk_optical_flow.exe")
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-squares.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-squares.exe")
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-tvl1_optical_flow.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-tvl1_optical_flow.exe")
+  endif()
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "samples" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Debug/tapi-example-ufacedetect.exe")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc14/samples/tapi" TYPE EXECUTABLE FILES "C:/dev/opencv/build/bin/Release/tapi-example-ufacedetect.exe")
+  endif()
+endif()
+

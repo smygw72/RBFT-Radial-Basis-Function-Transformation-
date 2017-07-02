@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{64D55F13-3D9D-39E4-842B-9F0644A09D03}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_core_object</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_core_object.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_core_object.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_core_object</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_core_object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_core_object.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_core_object.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_core_object</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_core_object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\core\src;C:\dev\opencv\build\modules\core;C:\Users\sho-m\Anaconda3\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\sources\modules\core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/opencv/sources/modules/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/opencv/sources/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/opencv/sources/modules/core/CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/opencv/sources/modules/core/CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\modules\core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\opencv\build\modules\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/opencv/sources/modules/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/opencv/sources/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/opencv/sources/modules/core/CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/opencv/sources/modules/core/CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;C:\dev\opencv\sources\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\modules\core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\opencv\build\modules\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\build\CMakeFiles\d1b8114365914fd08c81a632eaa9dcd4\opencl_kernels_core.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating opencl_kernels_core.cpp, opencl_kernels_core.hpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating opencl_kernels_core.cpp, opencl_kernels_core.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=core -DCL_DIR=C:/dev/opencv/sources/modules/core/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/core/opencl_kernels_core.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=core -DCL_DIR=C:/dev/opencv/sources/modules/core/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/core/opencl_kernels_core.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/opencv/build/CMakeFiles/d1b8114365914fd08c81a632eaa9dcd4/opencl_kernels_core.cpp.rule;C:\dev\opencv\sources\modules\core\src\opencl\arithm.cl;C:\dev\opencv\sources\modules\core\src\opencl\convert.cl;C:\dev\opencv\sources\modules\core\src\opencl\copymakeborder.cl;C:\dev\opencv\sources\modules\core\src\opencl\copyset.cl;C:\dev\opencv\sources\modules\core\src\opencl\cvtclr_dx.cl;C:\dev\opencv\sources\modules\core\src\opencl\fft.cl;C:\dev\opencv\sources\modules\core\src\opencl\flip.cl;C:\dev\opencv\sources\modules\core\src\opencl\gemm.cl;C:\dev\opencv\sources\modules\core\src\opencl\inrange.cl;C:\dev\opencv\sources\modules\core\src\opencl\lut.cl;C:\dev\opencv\sources\modules\core\src\opencl\meanstddev.cl;C:\dev\opencv\sources\modules\core\src\opencl\minmaxloc.cl;C:\dev\opencv\sources\modules\core\src\opencl\mixchannels.cl;C:\dev\opencv\sources\modules\core\src\opencl\mulspectrums.cl;C:\dev\opencv\sources\modules\core\src\opencl\normalize.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce2.cl;C:\dev\opencv\sources\modules\core\src\opencl\repeat.cl;C:\dev\opencv\sources\modules\core\src\opencl\set_identity.cl;C:\dev\opencv\sources\modules\core\src\opencl\split_merge.cl;C:\dev\opencv\sources\modules\core\src\opencl\transpose.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/opencv/build/CMakeFiles/d1b8114365914fd08c81a632eaa9dcd4/opencl_kernels_core.cpp.rule;C:\dev\opencv\sources\modules\core\src\opencl\arithm.cl;C:\dev\opencv\sources\modules\core\src\opencl\convert.cl;C:\dev\opencv\sources\modules\core\src\opencl\copymakeborder.cl;C:\dev\opencv\sources\modules\core\src\opencl\copyset.cl;C:\dev\opencv\sources\modules\core\src\opencl\cvtclr_dx.cl;C:\dev\opencv\sources\modules\core\src\opencl\fft.cl;C:\dev\opencv\sources\modules\core\src\opencl\flip.cl;C:\dev\opencv\sources\modules\core\src\opencl\gemm.cl;C:\dev\opencv\sources\modules\core\src\opencl\inrange.cl;C:\dev\opencv\sources\modules\core\src\opencl\lut.cl;C:\dev\opencv\sources\modules\core\src\opencl\meanstddev.cl;C:\dev\opencv\sources\modules\core\src\opencl\minmaxloc.cl;C:\dev\opencv\sources\modules\core\src\opencl\mixchannels.cl;C:\dev\opencv\sources\modules\core\src\opencl\mulspectrums.cl;C:\dev\opencv\sources\modules\core\src\opencl\normalize.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce2.cl;C:\dev\opencv\sources\modules\core\src\opencl\repeat.cl;C:\dev\opencv\sources\modules\core\src\opencl\set_identity.cl;C:\dev\opencv\sources\modules\core\src\opencl\split_merge.cl;C:\dev\opencv\sources\modules\core\src\opencl\transpose.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\modules\core\opencl_kernels_core.cpp;C:\dev\opencv\build\modules\core\opencl_kernels_core.hpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\opencv\build\modules\core\opencl_kernels_core.cpp;C:\dev\opencv\build\modules\core\opencl_kernels_core.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating opencl_kernels_core.cpp, opencl_kernels_core.hpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating opencl_kernels_core.cpp, opencl_kernels_core.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=core -DCL_DIR=C:/dev/opencv/sources/modules/core/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/core/opencl_kernels_core.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=core -DCL_DIR=C:/dev/opencv/sources/modules/core/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/core/opencl_kernels_core.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/opencv/build/CMakeFiles/d1b8114365914fd08c81a632eaa9dcd4/opencl_kernels_core.cpp.rule;C:\dev\opencv\sources\modules\core\src\opencl\arithm.cl;C:\dev\opencv\sources\modules\core\src\opencl\convert.cl;C:\dev\opencv\sources\modules\core\src\opencl\copymakeborder.cl;C:\dev\opencv\sources\modules\core\src\opencl\copyset.cl;C:\dev\opencv\sources\modules\core\src\opencl\cvtclr_dx.cl;C:\dev\opencv\sources\modules\core\src\opencl\fft.cl;C:\dev\opencv\sources\modules\core\src\opencl\flip.cl;C:\dev\opencv\sources\modules\core\src\opencl\gemm.cl;C:\dev\opencv\sources\modules\core\src\opencl\inrange.cl;C:\dev\opencv\sources\modules\core\src\opencl\lut.cl;C:\dev\opencv\sources\modules\core\src\opencl\meanstddev.cl;C:\dev\opencv\sources\modules\core\src\opencl\minmaxloc.cl;C:\dev\opencv\sources\modules\core\src\opencl\mixchannels.cl;C:\dev\opencv\sources\modules\core\src\opencl\mulspectrums.cl;C:\dev\opencv\sources\modules\core\src\opencl\normalize.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce2.cl;C:\dev\opencv\sources\modules\core\src\opencl\repeat.cl;C:\dev\opencv\sources\modules\core\src\opencl\set_identity.cl;C:\dev\opencv\sources\modules\core\src\opencl\split_merge.cl;C:\dev\opencv\sources\modules\core\src\opencl\transpose.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/opencv/build/CMakeFiles/d1b8114365914fd08c81a632eaa9dcd4/opencl_kernels_core.cpp.rule;C:\dev\opencv\sources\modules\core\src\opencl\arithm.cl;C:\dev\opencv\sources\modules\core\src\opencl\convert.cl;C:\dev\opencv\sources\modules\core\src\opencl\copymakeborder.cl;C:\dev\opencv\sources\modules\core\src\opencl\copyset.cl;C:\dev\opencv\sources\modules\core\src\opencl\cvtclr_dx.cl;C:\dev\opencv\sources\modules\core\src\opencl\fft.cl;C:\dev\opencv\sources\modules\core\src\opencl\flip.cl;C:\dev\opencv\sources\modules\core\src\opencl\gemm.cl;C:\dev\opencv\sources\modules\core\src\opencl\inrange.cl;C:\dev\opencv\sources\modules\core\src\opencl\lut.cl;C:\dev\opencv\sources\modules\core\src\opencl\meanstddev.cl;C:\dev\opencv\sources\modules\core\src\opencl\minmaxloc.cl;C:\dev\opencv\sources\modules\core\src\opencl\mixchannels.cl;C:\dev\opencv\sources\modules\core\src\opencl\mulspectrums.cl;C:\dev\opencv\sources\modules\core\src\opencl\normalize.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce.cl;C:\dev\opencv\sources\modules\core\src\opencl\reduce2.cl;C:\dev\opencv\sources\modules\core\src\opencl\repeat.cl;C:\dev\opencv\sources\modules\core\src\opencl\set_identity.cl;C:\dev\opencv\sources\modules\core\src\opencl\split_merge.cl;C:\dev\opencv\sources\modules\core\src\opencl\transpose.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\modules\core\opencl_kernels_core.cpp;C:\dev\opencv\build\modules\core\opencl_kernels_core.hpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\opencv\build\modules\core\opencl_kernels_core.cpp;C:\dev\opencv\build\modules\core\opencl_kernels_core.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\block.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\border_interpolate.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\color.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\common.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\datamov_utils.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\dynamic_smem.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\emulation.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\filters.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\funcattrib.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\functional.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\limits.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\reduce.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\saturate_cast.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\scan.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\simd_functions.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\transform.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\type_traits.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\utility.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\vec_distance.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\vec_math.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\vec_traits.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\warp.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\warp_reduce.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\warp_shuffle.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\detail\color_detail.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\detail\reduce.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\detail\reduce_key_val.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\detail\transform_detail.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\detail\type_traits_detail.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda\detail\vec_distance_detail.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\affine.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\base.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\bufferpool.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\core.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda.inl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda_stream_accessor.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cuda_types.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cvstd.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cvstd.inl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\directx.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\eigen.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\fast_math.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\ippasync.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\mat.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\mat.inl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\matx.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\neon_utils.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\ocl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\ocl_genbase.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\opengl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\operations.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\optim.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\persistence.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\private.cuda.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\private.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\ptr.inl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\saturate.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\sse_utils.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\traits.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\types.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\utility.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\va_intel.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\version.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\wimage.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\core_c.h" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\cvdef.h" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\types_c.h" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\hal\hal.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\hal\intrin.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\hal\intrin_cpp.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\hal\intrin_neon.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\hal\intrin_sse.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\include\opencv2\core\hal\interface.h" />
+    <ClInclude Include="C:\dev\opencv\build\modules\core\opencl_kernels_core.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\arithm_core.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\arithm_simd.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\bufferpool.impl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\directx.inc.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\gl_core_3_1.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\hal_replacement.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_clamdblas_impl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_clamdfft_impl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_core_impl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_gl_impl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\runtime_common.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\core\src\precomp.hpp" />
+    <ClInclude Include="C:\dev\opencv\build\cvconfig.h" />
+    <ClInclude Include="C:\dev\opencv\build\opencv2\opencv_modules.hpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\algorithm.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\alloc.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\arithm.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\array.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\command_line_parser.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\conjugate_gradient.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\convert.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\copy.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\cuda_gpu_mat.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\cuda_host_mem.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\cuda_info.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\cuda_stream.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\datastructs.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\directx.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\downhill_simplex.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\dxt.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\gl_core_3_1.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\glob.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\kmeans.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\lapack.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\lda.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\lpsolver.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\mathfuncs.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\mathfuncs_core.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\matmul.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\matop.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\matrix.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\matrix_decomp.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\merge.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\ocl.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\opencl_clamdblas.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\opencl_clamdfft.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\opencl\runtime\opencl_core.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\opengl.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\out.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\parallel.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\parallel_pthreads.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\pca.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\persistence.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\rand.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\split.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\stat.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\stl.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\system.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\tables.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\types.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\umatrix.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\core\src\va_intel.cpp" />
+    <ClCompile Include="C:\dev\opencv\build\modules\core\opencl_kernels_core.cpp" />
+    <ClCompile Include="C:\dev\opencv\build\modules\core\opencv_core_pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{F57D1053-E8F7-3848-99B9-5DC373DC9C99}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

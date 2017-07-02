@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/dev/opencv/sources/samples/cpp/CMakeLists.txt
+  CMake does not need to re-run because C:/dev/opencv/build/samples/cpp/CMakeFiles/generate.stamp is up-to-date.
+  dbt_face_detection.cpp
+  example_dbt_face_detection.vcxproj -> C:\dev\opencv\build\bin\Debug\cpp-example-dbt_face_detection.exe
+  example_dbt_face_detection.vcxproj -> C:/dev/opencv/build/bin/Debug/cpp-example-dbt_face_detection.pdb (Full PDB)

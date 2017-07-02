@@ -1,0 +1,100 @@
+# CMake generation dependency list for this directory.
+C:/dev/opencv/sources/CMakeLists.txt
+C:/dev/opencv/sources/cmake/OpenCVMinDepVersions.cmake
+C:/dev/opencv/build/CMakeFiles/3.8.1/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeSystemSpecificInitialize.cmake
+C:/dev/opencv/build/CMakeFiles/3.8.1/CMakeCXXCompiler.cmake
+C:/dev/opencv/build/CMakeFiles/3.8.1/CMakeCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC.cmake
+C:/dev/opencv/build/CMakeFiles/3.8.1/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/dev/opencv/sources/cmake/OpenCVUtils.cmake
+C:/dev/opencv/sources/cmake/OpenCVDetectCXXCompiler.cmake
+C:/dev/opencv/sources/cmake/OpenCVVersion.cmake
+C:/dev/opencv/sources/modules/core/include/opencv2/core/version.hpp
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/dev/opencv/sources/cmake/OpenCVCompilerOptions.cmake
+C:/dev/opencv/sources/cmake/OpenCVCRTLinkage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/ProcessorCount.cmake
+C:/dev/opencv/sources/cmake/OpenCVPCHSupport.cmake
+C:/dev/opencv/sources/cmake/OpenCVModule.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/TestBigEndian.cmake
+C:/dev/opencv/sources/cmake/OpenCVFindLibsGrfmt.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindJPEG.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPNG.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CheckIncludeFile.cmake
+C:/dev/opencv/sources/cmake/OpenCVFindLibsGUI.cmake
+C:/dev/opencv/sources/cmake/OpenCVFindLibsVideo.cmake
+C:/dev/opencv/sources/cmake/OpenCVFindLibsPerf.cmake
+C:/dev/opencv/sources/cmake/OpenCVDetectPython.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPythonLibs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeFindFrameworks.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPythonLibs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeFindFrameworks.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/dev/opencv/sources/cmake/OpenCVDetectApacheAnt.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindJNI.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeFindJavaCommon.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/dev/opencv/sources/cmake/OpenCVDetectVTK.cmake
+C:/dev/opencv/sources/cmake/templates/custom_hal.hpp.in
+C:/dev/opencv/sources/cmake/OpenCVExtraTargets.cmake
+C:/dev/opencv/sources/cmake/templates/cmake_uninstall.cmake.in
+C:/dev/opencv/sources/cmake/OpenCVGenHeaders.cmake
+C:/dev/opencv/sources/cmake/templates/cvconfig.h.in
+C:/dev/opencv/sources/cmake/templates/cvconfig.h.in
+C:/dev/opencv/sources/cmake/templates/opencv_modules.hpp.in
+C:/dev/opencv/sources/cmake/OpenCVGenPkgconfig.cmake
+C:/dev/opencv/sources/cmake/templates/opencv-XXX.pc.in
+C:/dev/opencv/sources/cmake/OpenCVGenAndroidMK.cmake
+C:/dev/opencv/sources/cmake/OpenCVGenConfig.cmake
+C:/dev/opencv/sources/cmake/templates/OpenCVConfig.cmake.in
+C:/dev/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in
+C:/dev/opencv/sources/cmake/templates/OpenCVConfig.cmake.in
+C:/dev/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in
+C:/dev/opencv/sources/cmake/OpenCVGenABI.cmake
+C:/dev/opencv/sources/cmake/OpenCVPackaging.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.8/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake/share/cmake-3.8/Templates/CPackConfig.cmake.in

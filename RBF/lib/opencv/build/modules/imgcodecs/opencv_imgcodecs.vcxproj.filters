@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\loadsave.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_base.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_bmp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_exr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_gdal.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_hdr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_jpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_jpeg2000.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_png.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_pxm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_sunras.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_tiff.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_webp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\bitstrm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\rgbe.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\imgcodecs\src\jpeg_exif.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\build\modules\imgcodecs\opencv_imgcodecs_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs\ios.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\utils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_base.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_bmp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_exr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_gdal.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_hdr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_jpeg.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_jpeg2000.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_png.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_pxm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_sunras.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_tiff.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmt_webp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\grfmts.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\bitstrm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\rgbe.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\imgcodecs\src\jpeg_exif.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\build\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\build\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\sources\modules\imgcodecs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FD8DD0AD-66AF-3ABE-AA35-B8B66029A5D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8A267F18-63AD-3F40-A9D3-0DF8AA908AA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{24A33C02-7425-3A53-AEA4-868CF63E8053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{0142A6A2-7A60-3204-A67F-2212882E5BAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\grfmts">
+      <UniqueIdentifier>{AB690B42-C9D2-328F-BB78-342052C3FB3E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

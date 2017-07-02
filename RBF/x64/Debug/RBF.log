@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\dev\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\dev\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\dev\opencv\build\include\opencv2\core\utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\dev\opencv\build\include\opencv2\core\utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': マクロが再定義されました。
+  c:\dev\glfw-3.1.2.bin.win64\include\glfw\glfw3.h(85): note: 'APIENTRY' の以前の定義を確認してください
+  RBF.vcxproj -> C:\Users\sho-m\Documents\Visual Studio 2015\Projects\RBF\x64\Debug\RBF.exe

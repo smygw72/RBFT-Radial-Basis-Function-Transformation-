@@ -1,0 +1,27 @@
+﻿  Building Custom Rule C:/dev/opencv/sources/modules/videoio/CMakeLists.txt
+  CMake does not need to re-run because C:/dev/opencv/build/modules/videoio/CMakeFiles/generate.stamp is up-to-date.
+  cap.cpp
+  cap_images.cpp
+  cap_mjpeg_encoder.cpp
+  cap_mjpeg_decoder.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_images.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_mjpeg_encoder.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_mjpeg_decoder.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_images.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_mjpeg_encoder.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_mjpeg_decoder.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_mjpeg_encoder.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_images.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_mjpeg_decoder.cpp)
+  cap_cmu.cpp
+  opencv_videoio_pch.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_cmu.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\videoio\opencv_videoio_pch.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_cmu.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\videoio\opencv_videoio_pch.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\videoio\src\cap_cmu.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\videoio\opencv_videoio_pch.cpp)
+  opencv_videoio.vcxproj -> C:\dev\opencv\build\lib\Release\opencv_videoio310.lib

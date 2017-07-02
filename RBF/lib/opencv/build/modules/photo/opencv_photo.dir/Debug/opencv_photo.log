@@ -1,0 +1,66 @@
+﻿  Building Custom Rule C:/dev/opencv/sources/modules/photo/CMakeLists.txt
+  CMake does not need to re-run because C:/dev/opencv/build/modules/photo/CMakeFiles/generate.stamp is up-to-date.
+  Generating opencl_kernels_photo.cpp, opencl_kernels_photo.hpp
+  -- C:/dev/opencv/build/modules/photo/opencl_kernels_photo.hpp contains same content
+  align.cpp
+  calibrate.cpp
+  contrast_preserve.cpp
+  denoise_tvl1.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\contrast_preserve.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\calibrate.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoise_tvl1.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\align.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\contrast_preserve.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\calibrate.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoise_tvl1.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\align.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\calibrate.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\contrast_preserve.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoise_tvl1.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\align.cpp)
+  denoising.cpp
+  denoising.cuda.cpp
+  hdr_common.cpp
+  inpaint.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoising.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoising.cuda.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\hdr_common.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\inpaint.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoising.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoising.cuda.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\hdr_common.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoising.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\inpaint.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\denoising.cuda.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\hdr_common.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\inpaint.cpp)
+  merge.cpp
+  npr.cpp
+  seamless_cloning.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\merge.cpp)
+  seamless_cloning_impl.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\npr.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\seamless_cloning.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\merge.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\npr.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\merge.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\npr.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\seamless_cloning.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\seamless_cloning.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\seamless_cloning_impl.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\seamless_cloning_impl.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\seamless_cloning_impl.cpp)
+  tonemap.cpp
+  opencl_kernels_photo.cpp
+  opencv_photo_pch.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\tonemap.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\photo\opencl_kernels_photo.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\photo\opencv_photo_pch.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\tonemap.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\photo\opencl_kernels_photo.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\sources\modules\photo\src\tonemap.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\photo\opencl_kernels_photo.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\photo\opencv_photo_pch.cpp)
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています C:\dev\opencv\build\modules\photo\opencv_photo_pch.cpp)
+opencl_kernels_photo.obj : warning LNK4221: このオブジェクト ファイルは、以前に未定義であったパブリック シンボルを定義していないため、このライブラリを使用するリンク操作では使用されません
+  opencv_photo.vcxproj -> C:\dev\opencv\build\lib\Debug\opencv_photo310d.lib

@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B86D234F-0AA8-34EF-956D-25E295FF3DA6}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_stitching_object</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_stitching_object.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_stitching_object.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_stitching_object</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_stitching_object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_stitching_object.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_stitching_object.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_stitching_object</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_stitching_object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\stitching\src;C:\dev\opencv\build\modules\stitching;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\calib3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\sources\modules\stitching\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/opencv/sources/modules/stitching/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/opencv/sources/modules/stitching/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/stitching/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/stitching/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/opencv/sources/modules/stitching/CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/opencv/sources/modules/stitching/CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\modules\stitching\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\opencv\build\modules\stitching\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/opencv/sources/modules/stitching/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/opencv/sources/modules/stitching/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/stitching/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/stitching/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/opencv/sources/modules/stitching/CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/opencv/sources/modules/stitching/CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;C:\dev\opencv\sources\modules\stitching\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\modules\stitching\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\opencv\build\modules\stitching\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\build\CMakeFiles\e88f83a80ab47da76375bf2d4e6f5f57\opencl_kernels_stitching.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating opencl_kernels_stitching.cpp, opencl_kernels_stitching.hpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating opencl_kernels_stitching.cpp, opencl_kernels_stitching.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=stitching -DCL_DIR=C:/dev/opencv/sources/modules/stitching/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=stitching -DCL_DIR=C:/dev/opencv/sources/modules/stitching/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/opencv/build/CMakeFiles/e88f83a80ab47da76375bf2d4e6f5f57/opencl_kernels_stitching.cpp.rule;C:\dev\opencv\sources\modules\stitching\src\opencl\multibandblend.cl;C:\dev\opencv\sources\modules\stitching\src\opencl\warpers.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/opencv/build/CMakeFiles/e88f83a80ab47da76375bf2d4e6f5f57/opencl_kernels_stitching.cpp.rule;C:\dev\opencv\sources\modules\stitching\src\opencl\multibandblend.cl;C:\dev\opencv\sources\modules\stitching\src\opencl\warpers.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.cpp;C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.hpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.cpp;C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating opencl_kernels_stitching.cpp, opencl_kernels_stitching.hpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating opencl_kernels_stitching.cpp, opencl_kernels_stitching.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=stitching -DCL_DIR=C:/dev/opencv/sources/modules/stitching/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=stitching -DCL_DIR=C:/dev/opencv/sources/modules/stitching/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/opencv/build/CMakeFiles/e88f83a80ab47da76375bf2d4e6f5f57/opencl_kernels_stitching.cpp.rule;C:\dev\opencv\sources\modules\stitching\src\opencl\multibandblend.cl;C:\dev\opencv\sources\modules\stitching\src\opencl\warpers.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/opencv/build/CMakeFiles/e88f83a80ab47da76375bf2d4e6f5f57/opencl_kernels_stitching.cpp.rule;C:\dev\opencv\sources\modules\stitching\src\opencl\multibandblend.cl;C:\dev\opencv\sources\modules\stitching\src\opencl\warpers.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.cpp;C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.hpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.cpp;C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\warpers.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\autocalib.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\blenders.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\camera.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\exposure_compensate.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\matchers.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\motion_estimators.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\seam_finders.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\timelapsers.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\util.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\util_inl.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\warpers.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\include\opencv2\stitching\detail\warpers_inl.hpp" />
+    <ClInclude Include="C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\stitching\src\precomp.hpp" />
+    <ClInclude Include="C:\dev\opencv\build\cvconfig.h" />
+    <ClInclude Include="C:\dev\opencv\build\opencv2\opencv_modules.hpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\autocalib.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\blenders.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\camera.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\exposure_compensate.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\matchers.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\motion_estimators.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\seam_finders.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\stitcher.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\timelapsers.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\util.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\warpers.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\stitching\src\warpers_cuda.cpp" />
+    <ClCompile Include="C:\dev\opencv\build\modules\stitching\opencl_kernels_stitching.cpp" />
+    <ClCompile Include="C:\dev\opencv\build\modules\stitching\opencv_stitching_pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{F57D1053-E8F7-3848-99B9-5DC373DC9C99}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

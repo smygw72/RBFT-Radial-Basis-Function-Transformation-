@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/dev/opencv/sources/modules/python/python2/CMakeLists.txt
+  CMake does not need to re-run because C:/dev/opencv/build/modules/python2/CMakeFiles/generate.stamp is up-to-date.
+  cv2.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+python35.lib(python35.dll) : fatal error LNK1112: モジュールのコンピューターの種類 'x64' は対象コンピューターの種類 'X86' と競合しています。

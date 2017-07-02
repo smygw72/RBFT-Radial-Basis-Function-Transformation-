@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C97D5B90-9FFB-31FB-A863-ED4C91648DB7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_superres</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_superres.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_superres310d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_superres310d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_superres.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_superres310</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_superres310</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589;4127</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\dev\opencv\build\lib\Debug\opencv_superres310d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589;4127</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\dev\opencv\build\lib\Debug\opencv_superres310d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589;4127</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\dev\opencv\build\lib\Release\opencv_superres310.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589;4127</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\dev\opencv\build\lib\Release\opencv_superres310.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\build;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\superres\src;C:\dev\opencv\build\modules\superres;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\videoio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\sources\modules\superres\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/opencv/sources/modules/superres/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/opencv/sources/modules/superres/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/superres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/superres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/opencv/sources/modules/superres/CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/opencv/sources/modules/superres/CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\modules\superres\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\opencv\build\modules\superres\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/opencv/sources/modules/superres/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/opencv/sources/modules/superres/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/superres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/modules/superres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/opencv/sources/modules/superres/CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/opencv/sources/modules/superres/CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;C:\dev\opencv\sources\modules\superres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\modules\superres\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\opencv\build\modules\superres\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\build\CMakeFiles\609c7c425aced796d66f5e94afa5778d\opencl_kernels_superres.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating opencl_kernels_superres.cpp, opencl_kernels_superres.hpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating opencl_kernels_superres.cpp, opencl_kernels_superres.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=superres -DCL_DIR=C:/dev/opencv/sources/modules/superres/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/superres/opencl_kernels_superres.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=superres -DCL_DIR=C:/dev/opencv/sources/modules/superres/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/superres/opencl_kernels_superres.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/opencv/build/CMakeFiles/609c7c425aced796d66f5e94afa5778d/opencl_kernels_superres.cpp.rule;C:\dev\opencv\sources\modules\superres\src\opencl\superres_btvl1.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/opencv/build/CMakeFiles/609c7c425aced796d66f5e94afa5778d/opencl_kernels_superres.cpp.rule;C:\dev\opencv\sources\modules\superres\src\opencl\superres_btvl1.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\modules\superres\opencl_kernels_superres.cpp;C:\dev\opencv\build\modules\superres\opencl_kernels_superres.hpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\opencv\build\modules\superres\opencl_kernels_superres.cpp;C:\dev\opencv\build\modules\superres\opencl_kernels_superres.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating opencl_kernels_superres.cpp, opencl_kernels_superres.hpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating opencl_kernels_superres.cpp, opencl_kernels_superres.hpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=superres -DCL_DIR=C:/dev/opencv/sources/modules/superres/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/superres/opencl_kernels_superres.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=superres -DCL_DIR=C:/dev/opencv/sources/modules/superres/src/opencl -DOUTPUT=C:/dev/opencv/build/modules/superres/opencl_kernels_superres.cpp -P C:/dev/opencv/sources/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/opencv/build/CMakeFiles/609c7c425aced796d66f5e94afa5778d/opencl_kernels_superres.cpp.rule;C:\dev\opencv\sources\modules\superres\src\opencl\superres_btvl1.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/opencv/build/CMakeFiles/609c7c425aced796d66f5e94afa5778d/opencl_kernels_superres.cpp.rule;C:\dev\opencv\sources\modules\superres\src\opencl\superres_btvl1.cl;C:\dev\opencv\sources\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\modules\superres\opencl_kernels_superres.cpp;C:\dev\opencv\build\modules\superres\opencl_kernels_superres.hpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\opencv\build\modules\superres\opencl_kernels_superres.cpp;C:\dev\opencv\build\modules\superres\opencl_kernels_superres.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\opencv\sources\modules\superres\include\opencv2\superres.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\superres\include\opencv2\superres\optical_flow.hpp" />
+    <ClInclude Include="C:\dev\opencv\build\modules\superres\opencl_kernels_superres.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\superres\src\input_array_utility.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\superres\src\precomp.hpp" />
+    <ClInclude Include="C:\dev\opencv\sources\modules\superres\src\ring_buffer.hpp" />
+    <ClInclude Include="C:\dev\opencv\build\cvconfig.h" />
+    <ClInclude Include="C:\dev\opencv\build\opencv2\opencv_modules.hpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\superres\src\btv_l1.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\superres\src\btv_l1_cuda.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\superres\src\frame_source.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\superres\src\input_array_utility.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\superres\src\optical_flow.cpp" />
+    <ClCompile Include="C:\dev\opencv\sources\modules\superres\src\super_resolution.cpp" />
+    <ClCompile Include="C:\dev\opencv\build\modules\superres\opencl_kernels_superres.cpp" />
+    <ClCompile Include="C:\dev\opencv\build\modules\superres\opencv_superres_pch.cpp" />
+    <None Include="C:\dev\opencv\sources\modules\superres\src\opencl\superres_btvl1.cl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{F57D1053-E8F7-3848-99B9-5DC373DC9C99}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\core\opencv_core.vcxproj">
+      <Project>{4D41AFC4-7CB7-3072-AB47-C11E4F127DF0}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{16499430-CA9A-3B82-8334-26B21C6E61A2}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{CA741EEC-C7CE-334C-A8F1-AE8BD20508F9}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\video\opencv_video.vcxproj">
+      <Project>{2FEBF71F-7CFE-30A5-9925-346988B4C2F8}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{E1C6D043-1A2D-3AB8-A6A5-557085536CAD}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{00EE0DA0-33E5-30E6-AB64-1517331D59B1}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>(TUTORIAL) calcHist_Demo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tutorial_calcHist_Demo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cpp-tutorial-calcHist_Demo</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cpp-tutorial-calcHist_Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tutorial_calcHist_Demo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cpp-tutorial-calcHist_Demo</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cpp-tutorial-calcHist_Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_core310d.lib;..\..\lib\Debug\opencv_imgproc310d.lib;..\..\lib\Debug\opencv_flann310d.lib;..\..\lib\Debug\opencv_imgcodecs310d.lib;..\..\lib\Debug\opencv_videoio310d.lib;..\..\lib\Debug\opencv_highgui310d.lib;..\..\lib\Debug\opencv_ml310d.lib;..\..\lib\Debug\opencv_video310d.lib;..\..\lib\Debug\opencv_objdetect310d.lib;..\..\lib\Debug\opencv_photo310d.lib;..\..\lib\Debug\opencv_features2d310d.lib;..\..\lib\Debug\opencv_calib3d310d.lib;..\..\lib\Debug\opencv_stitching310d.lib;..\..\lib\Debug\opencv_videostab310d.lib;..\..\lib\Debug\opencv_shape310d.lib;..\..\lib\Debug\opencv_calib3d310d.lib;..\..\lib\Debug\opencv_core310d.lib;..\..\lib\Debug\opencv_features2d310d.lib;..\..\lib\Debug\opencv_flann310d.lib;..\..\lib\Debug\opencv_highgui310d.lib;..\..\lib\Debug\opencv_imgcodecs310d.lib;..\..\lib\Debug\opencv_imgproc310d.lib;..\..\lib\Debug\opencv_ml310d.lib;..\..\lib\Debug\opencv_objdetect310d.lib;..\..\lib\Debug\opencv_photo310d.lib;..\..\lib\Debug\opencv_shape310d.lib;..\..\lib\Debug\opencv_stitching310d.lib;..\..\lib\Debug\opencv_superres310d.lib;..\..\lib\Debug\opencv_video310d.lib;..\..\lib\Debug\opencv_videoio310d.lib;..\..\lib\Debug\opencv_videostab310d.lib;..\..\lib\Debug\opencv_objdetect310d.lib;..\..\lib\Debug\opencv_photo310d.lib;..\..\lib\Debug\opencv_calib3d310d.lib;..\..\lib\Debug\opencv_features2d310d.lib;..\..\lib\Debug\opencv_flann310d.lib;..\..\lib\Debug\opencv_highgui310d.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\lib\Debug\opencv_ml310d.lib;..\..\lib\Debug\opencv_videoio310d.lib;..\..\lib\Debug\opencv_imgcodecs310d.lib;C:\Users\sho-m\Anaconda3\Library\lib\jpeg.lib;C:\Users\sho-m\Anaconda3\Library\lib\png.lib;..\..\lib\Debug\opencv_video310d.lib;..\..\lib\Debug\opencv_imgproc310d.lib;..\..\lib\Debug\opencv_core310d.lib;C:\Users\sho-m\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib;atlsd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/opencv/build/bin/Debug/cpp-tutorial-calcHist_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/opencv/build/bin/Debug/cpp-tutorial-calcHist_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_core310d.lib;..\..\lib\Debug\opencv_imgproc310d.lib;..\..\lib\Debug\opencv_flann310d.lib;..\..\lib\Debug\opencv_imgcodecs310d.lib;..\..\lib\Debug\opencv_videoio310d.lib;..\..\lib\Debug\opencv_highgui310d.lib;..\..\lib\Debug\opencv_ml310d.lib;..\..\lib\Debug\opencv_video310d.lib;..\..\lib\Debug\opencv_objdetect310d.lib;..\..\lib\Debug\opencv_photo310d.lib;..\..\lib\Debug\opencv_features2d310d.lib;..\..\lib\Debug\opencv_calib3d310d.lib;..\..\lib\Debug\opencv_stitching310d.lib;..\..\lib\Debug\opencv_videostab310d.lib;..\..\lib\Debug\opencv_shape310d.lib;..\..\lib\Debug\opencv_calib3d310d.lib;..\..\lib\Debug\opencv_core310d.lib;..\..\lib\Debug\opencv_features2d310d.lib;..\..\lib\Debug\opencv_flann310d.lib;..\..\lib\Debug\opencv_highgui310d.lib;..\..\lib\Debug\opencv_imgcodecs310d.lib;..\..\lib\Debug\opencv_imgproc310d.lib;..\..\lib\Debug\opencv_ml310d.lib;..\..\lib\Debug\opencv_objdetect310d.lib;..\..\lib\Debug\opencv_photo310d.lib;..\..\lib\Debug\opencv_shape310d.lib;..\..\lib\Debug\opencv_stitching310d.lib;..\..\lib\Debug\opencv_superres310d.lib;..\..\lib\Debug\opencv_video310d.lib;..\..\lib\Debug\opencv_videoio310d.lib;..\..\lib\Debug\opencv_videostab310d.lib;..\..\lib\Debug\opencv_objdetect310d.lib;..\..\lib\Debug\opencv_photo310d.lib;..\..\lib\Debug\opencv_calib3d310d.lib;..\..\lib\Debug\opencv_features2d310d.lib;..\..\lib\Debug\opencv_flann310d.lib;..\..\lib\Debug\opencv_highgui310d.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\lib\Debug\opencv_ml310d.lib;..\..\lib\Debug\opencv_videoio310d.lib;..\..\lib\Debug\opencv_imgcodecs310d.lib;C:\Users\sho-m\Anaconda3\Library\lib\jpeg.lib;C:\Users\sho-m\Anaconda3\Library\lib\png.lib;..\..\lib\Debug\opencv_video310d.lib;..\..\lib\Debug\opencv_imgproc310d.lib;..\..\lib\Debug\opencv_core310d.lib;C:\Users\sho-m\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib;atlsd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/opencv/build/bin/Debug/cpp-tutorial-calcHist_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/opencv/build/bin/Debug/cpp-tutorial-calcHist_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_core310.lib;..\..\lib\Release\opencv_imgproc310.lib;..\..\lib\Release\opencv_flann310.lib;..\..\lib\Release\opencv_imgcodecs310.lib;..\..\lib\Release\opencv_videoio310.lib;..\..\lib\Release\opencv_highgui310.lib;..\..\lib\Release\opencv_ml310.lib;..\..\lib\Release\opencv_video310.lib;..\..\lib\Release\opencv_objdetect310.lib;..\..\lib\Release\opencv_photo310.lib;..\..\lib\Release\opencv_features2d310.lib;..\..\lib\Release\opencv_calib3d310.lib;..\..\lib\Release\opencv_stitching310.lib;..\..\lib\Release\opencv_videostab310.lib;..\..\lib\Release\opencv_shape310.lib;..\..\lib\Release\opencv_calib3d310.lib;..\..\lib\Release\opencv_core310.lib;..\..\lib\Release\opencv_features2d310.lib;..\..\lib\Release\opencv_flann310.lib;..\..\lib\Release\opencv_highgui310.lib;..\..\lib\Release\opencv_imgcodecs310.lib;..\..\lib\Release\opencv_imgproc310.lib;..\..\lib\Release\opencv_ml310.lib;..\..\lib\Release\opencv_objdetect310.lib;..\..\lib\Release\opencv_photo310.lib;..\..\lib\Release\opencv_shape310.lib;..\..\lib\Release\opencv_stitching310.lib;..\..\lib\Release\opencv_superres310.lib;..\..\lib\Release\opencv_video310.lib;..\..\lib\Release\opencv_videoio310.lib;..\..\lib\Release\opencv_videostab310.lib;..\..\lib\Release\opencv_objdetect310.lib;..\..\lib\Release\opencv_photo310.lib;..\..\lib\Release\opencv_calib3d310.lib;..\..\lib\Release\opencv_features2d310.lib;..\..\lib\Release\opencv_flann310.lib;..\..\lib\Release\opencv_highgui310.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\lib\Release\opencv_ml310.lib;..\..\lib\Release\opencv_videoio310.lib;..\..\lib\Release\opencv_imgcodecs310.lib;C:\Users\sho-m\Anaconda3\Library\lib\jpeg.lib;C:\Users\sho-m\Anaconda3\Library\lib\png.lib;..\..\lib\Release\opencv_video310.lib;..\..\lib\Release\opencv_imgproc310.lib;..\..\lib\Release\opencv_core310.lib;C:\Users\sho-m\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib;atlsd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/opencv/build/bin/Release/cpp-tutorial-calcHist_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/opencv/build/bin/Release/cpp-tutorial-calcHist_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv\sources\modules\calib3d\include;C:\dev\opencv\sources\modules\features2d\include;C:\dev\opencv\sources\modules\highgui\include;C:\dev\opencv\sources\modules\videoio\include;C:\dev\opencv\sources\modules\imgcodecs\include;C:\dev\opencv\sources\modules\video\include;C:\dev\opencv\sources\modules\photo\include;C:\dev\opencv\sources\modules\ml\include;C:\dev\opencv\sources\modules\imgproc\include;C:\dev\opencv\sources\modules\flann\include;C:\dev\opencv\sources\modules\core\include;C:\dev\opencv\sources\modules\objdetect\include;C:\dev\opencv\sources\modules\videostab\include;C:\dev\opencv\sources\modules\superres\include;C:\dev\opencv\sources\modules\stitching\include;C:\dev\opencv\sources\modules\shape\include;C:\dev\opencv\sources\include;C:\dev\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_core310.lib;..\..\lib\Release\opencv_imgproc310.lib;..\..\lib\Release\opencv_flann310.lib;..\..\lib\Release\opencv_imgcodecs310.lib;..\..\lib\Release\opencv_videoio310.lib;..\..\lib\Release\opencv_highgui310.lib;..\..\lib\Release\opencv_ml310.lib;..\..\lib\Release\opencv_video310.lib;..\..\lib\Release\opencv_objdetect310.lib;..\..\lib\Release\opencv_photo310.lib;..\..\lib\Release\opencv_features2d310.lib;..\..\lib\Release\opencv_calib3d310.lib;..\..\lib\Release\opencv_stitching310.lib;..\..\lib\Release\opencv_videostab310.lib;..\..\lib\Release\opencv_shape310.lib;..\..\lib\Release\opencv_calib3d310.lib;..\..\lib\Release\opencv_core310.lib;..\..\lib\Release\opencv_features2d310.lib;..\..\lib\Release\opencv_flann310.lib;..\..\lib\Release\opencv_highgui310.lib;..\..\lib\Release\opencv_imgcodecs310.lib;..\..\lib\Release\opencv_imgproc310.lib;..\..\lib\Release\opencv_ml310.lib;..\..\lib\Release\opencv_objdetect310.lib;..\..\lib\Release\opencv_photo310.lib;..\..\lib\Release\opencv_shape310.lib;..\..\lib\Release\opencv_stitching310.lib;..\..\lib\Release\opencv_superres310.lib;..\..\lib\Release\opencv_video310.lib;..\..\lib\Release\opencv_videoio310.lib;..\..\lib\Release\opencv_videostab310.lib;..\..\lib\Release\opencv_objdetect310.lib;..\..\lib\Release\opencv_photo310.lib;..\..\lib\Release\opencv_calib3d310.lib;..\..\lib\Release\opencv_features2d310.lib;..\..\lib\Release\opencv_flann310.lib;..\..\lib\Release\opencv_highgui310.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\lib\Release\opencv_ml310.lib;..\..\lib\Release\opencv_videoio310.lib;..\..\lib\Release\opencv_imgcodecs310.lib;C:\Users\sho-m\Anaconda3\Library\lib\jpeg.lib;C:\Users\sho-m\Anaconda3\Library\lib\png.lib;..\..\lib\Release\opencv_video310.lib;..\..\lib\Release\opencv_imgproc310.lib;..\..\lib\Release\opencv_core310.lib;C:\Users\sho-m\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib;atlsd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/opencv/build/bin/Release/cpp-tutorial-calcHist_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/opencv/build/bin/Release/cpp-tutorial-calcHist_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\sources\samples\cpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/opencv/sources/samples/cpp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/opencv/sources/samples/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/samples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/samples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/opencv/sources/samples/cpp/CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\tutorial_code\calib3d\real_time_pose_estimation\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/opencv/sources/samples/cpp/CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\tutorial_code\calib3d\real_time_pose_estimation\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\opencv\build\samples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\opencv\build\samples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/opencv/sources/samples/cpp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/opencv/sources/samples/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/samples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/opencv/sources -BC:/dev/opencv/build --check-stamp-file C:/dev/opencv/build/samples/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/opencv/sources/samples/cpp/CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\tutorial_code\calib3d\real_time_pose_estimation\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/opencv/sources/samples/cpp/CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\tutorial_code\calib3d\real_time_pose_estimation\CMakeLists.txt;C:\dev\opencv\sources\samples\cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\opencv\build\samples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\opencv\build\samples\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\opencv\sources\samples\cpp\tutorial_code\Histograms_Matching\calcHist_Demo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{F57D1053-E8F7-3848-99B9-5DC373DC9C99}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{4C181C6E-4BC9-3724-AE82-FC860C886193}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\core\opencv_core.vcxproj">
+      <Project>{4D41AFC4-7CB7-3072-AB47-C11E4F127DF0}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{5F329D35-0A56-3E6C-8CA3-9FFED35BEA65}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{FB2CC204-4E9A-30AA-8EB9-F8A8CF82099B}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{4332AF1F-FE39-3BF2-A506-66D41A466786}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{16499430-CA9A-3B82-8334-26B21C6E61A2}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{CA741EEC-C7CE-334C-A8F1-AE8BD20508F9}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\ml\opencv_ml.vcxproj">
+      <Project>{4EC892F3-7AD7-3FE7-A93E-A5A73569DD6D}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{DFB35ECE-1FF9-3ABF-9A2F-4F2F79371ABE}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\photo\opencv_photo.vcxproj">
+      <Project>{E9EFBDB8-86F9-3CAB-87F7-14039A405B18}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\shape\opencv_shape.vcxproj">
+      <Project>{03CF4890-6B55-3DFF-9666-411DA288CAB5}</Project>
+      <Name>opencv_shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{EA38B28B-3CCB-36D5-AE9A-781E33FFDCF2}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\superres\opencv_superres.vcxproj">
+      <Project>{C97D5B90-9FFB-31FB-A863-ED4C91648DB7}</Project>
+      <Name>opencv_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\video\opencv_video.vcxproj">
+      <Project>{2FEBF71F-7CFE-30A5-9925-346988B4C2F8}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{E1C6D043-1A2D-3AB8-A6A5-557085536CAD}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\opencv\build\modules\videostab\opencv_videostab.vcxproj">
+      <Project>{8744DA9B-A667-3314-9BCE-391B29E7A28E}</Project>
+      <Name>opencv_videostab</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

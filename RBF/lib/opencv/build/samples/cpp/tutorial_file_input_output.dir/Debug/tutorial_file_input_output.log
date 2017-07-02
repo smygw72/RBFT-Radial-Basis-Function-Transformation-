@@ -1,0 +1,17 @@
+﻿  Building Custom Rule C:/dev/opencv/sources/samples/cpp/CMakeLists.txt
+  CMake does not need to re-run because C:/dev/opencv/build/samples/cpp/CMakeFiles/generate.stamp is up-to-date.
+  file_input_output.cpp
+C:\dev\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\dev\opencv\sources\modules\core\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\dev\opencv\sources\modules\core\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+opencv_core310d.lib(persistence.obj) : error LNK2019: 未解決の外部シンボル _gzputs が関数 "void __cdecl icvPuts(struct CvFileStorage *,char const *)" (?icvPuts@@YAXPAUCvFileStorage@@PBD@Z) で参照されました。
+opencv_core310d.lib(persistence.obj) : error LNK2019: 未解決の外部シンボル _gzgets が関数 "char * __cdecl icvGets(struct CvFileStorage *,char *,int)" (?icvGets@@YAPADPAUCvFileStorage@@PADH@Z) で参照されました。
+opencv_core310d.lib(persistence.obj) : error LNK2019: 未解決の外部シンボル _gzrewind が関数 "void __cdecl icvRewind(struct CvFileStorage *)" (?icvRewind@@YAXPAUCvFileStorage@@@Z) で参照されました。
+opencv_core310d.lib(persistence.obj) : error LNK2019: 未解決の外部シンボル _gzeof が関数 "int __cdecl icvEof(struct CvFileStorage *)" (?icvEof@@YAHPAUCvFileStorage@@@Z) で参照されました。
+opencv_core310d.lib(persistence.obj) : error LNK2019: 未解決の外部シンボル _gzclose が関数 "void __cdecl icvCloseFile(struct CvFileStorage *)" (?icvCloseFile@@YAXPAUCvFileStorage@@@Z) で参照されました。
+opencv_core310d.lib(persistence.obj) : error LNK2019: 未解決の外部シンボル _gzopen が関数 _cvOpenFileStorage で参照されました。
+C:\Users\sho-m\Anaconda3\Library\lib\jpeg.lib : warning LNK4272: ライブラリのコンピューターの種類 'x64' がターゲットのコンピューターの種類' X86' と競合しています
+C:\Users\sho-m\Anaconda3\Library\lib\png.lib : warning LNK4272: ライブラリのコンピューターの種類 'x64' がターゲットのコンピューターの種類' X86' と競合しています
+C:\Users\sho-m\Anaconda3\Library\lib\z.lib : warning LNK4272: ライブラリのコンピューターの種類 'x64' がターゲットのコンピューターの種類' X86' と競合しています
+C:\dev\opencv\build\bin\Debug\cpp-tutorial-file_input_output.exe : fatal error LNK1120: 6 件の未解決の外部参照

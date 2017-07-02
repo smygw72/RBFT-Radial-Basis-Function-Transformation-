@@ -1,0 +1,328 @@
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/dev/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b7326.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ƒo[ƒWƒ‡ƒ“ 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2016/09/07 1:52:43 ‚Éƒrƒ‹ƒh‚ğŠJn‚µ‚Ü‚µ‚½B
+ƒm[ƒh 1 ã‚ÌƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_b7326.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg)B
+PrepareForBuild:
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_b7326.dir\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_b7326.dir\Debug\cmTC_b7326.tlog\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+InitializeBuildStatus:
+  "AlwaysCreate" ‚ªw’è‚³‚ê‚½‚½‚ß "cmTC_b7326.dir\Debug\cmTC_b7326.tlog\unsuccessfulbuild" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7326.dir\Debug\\" /Fd"cmTC_b7326.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\sho-m\Desktop\cmake-3.6.1-win32-x86\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.00.23918 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7326.dir\Debug\\" /Fd"cmTC_b7326.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\sho-m\Desktop\cmake-3.6.1-win32-x86\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_b7326.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_b7326.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_b7326.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b7326.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: –¢‰ğŒˆ‚ÌŠO•”ƒVƒ“ƒ{ƒ‹ _fseeko ‚ªŠÖ” _main ‚ÅQÆ‚³‚ê‚Ü‚µ‚½B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_b7326.vcxproj]
+C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_b7326.exe : fatal error LNK1120: 1 Œ‚Ì–¢‰ğŒˆ‚ÌŠO•”QÆ [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_b7326.vcxproj]
+ƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_b7326.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) ‚Ìƒrƒ‹ƒh‚ªI—¹‚µ‚Ü‚µ‚½ -- ¸”sB
+
+ƒrƒ‹ƒh‚É¸”s‚µ‚Ü‚µ‚½B
+
+"C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_b7326.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) (1) ->
+(Link ƒ^[ƒQƒbƒg) -> 
+  CheckFunctionExists.obj : error LNK2019: –¢‰ğŒˆ‚ÌŠO•”ƒVƒ“ƒ{ƒ‹ _fseeko ‚ªŠÖ” _main ‚ÅQÆ‚³‚ê‚Ü‚µ‚½B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_b7326.vcxproj]
+  C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_b7326.exe : fatal error LNK1120: 1 Œ‚Ì–¢‰ğŒˆ‚ÌŠO•”QÆ [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_b7326.vcxproj]
+
+    0 ŒÂ‚ÌŒx
+    2 ƒGƒ‰[
+
+Œo‰ßŠÔ 00:00:00.67
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/dev/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_49d90.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ƒo[ƒWƒ‡ƒ“ 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2016/09/07 1:52:44 ‚Éƒrƒ‹ƒh‚ğŠJn‚µ‚Ü‚µ‚½B
+ƒm[ƒh 1 ã‚ÌƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_49d90.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg)B
+PrepareForBuild:
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_49d90.dir\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_49d90.dir\Debug\cmTC_49d90.tlog\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+InitializeBuildStatus:
+  "AlwaysCreate" ‚ªw’è‚³‚ê‚½‚½‚ß "cmTC_49d90.dir\Debug\cmTC_49d90.tlog\unsuccessfulbuild" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49d90.dir\Debug\\" /Fd"cmTC_49d90.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.00.23918 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49d90.dir\Debug\\" /Fd"cmTC_49d90.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: include ƒtƒ@ƒCƒ‹‚ğŠJ‚¯‚Ü‚¹‚ñB'unistd.h':No such file or directory [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_49d90.vcxproj]
+ƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_49d90.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) ‚Ìƒrƒ‹ƒh‚ªI—¹‚µ‚Ü‚µ‚½ -- ¸”sB
+
+ƒrƒ‹ƒh‚É¸”s‚µ‚Ü‚µ‚½B
+
+"C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_49d90.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) (1) ->
+(ClCompile ƒ^[ƒQƒbƒg) -> 
+  C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: include ƒtƒ@ƒCƒ‹‚ğŠJ‚¯‚Ü‚¹‚ñB'unistd.h':No such file or directory [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_49d90.vcxproj]
+
+    0 ŒÂ‚ÌŒx
+    1 ƒGƒ‰[
+
+Œo‰ßŠÔ 00:00:00.43
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: C:/dev/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d7d89.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ƒo[ƒWƒ‡ƒ“ 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2016/09/07 1:52:45 ‚Éƒrƒ‹ƒh‚ğŠJn‚µ‚Ü‚µ‚½B
+ƒm[ƒh 1 ã‚ÌƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg)B
+PrepareForBuild:
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_d7d89.dir\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_d7d89.dir\Debug\cmTC_d7d89.tlog\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+InitializeBuildStatus:
+  "AlwaysCreate" ‚ªw’è‚³‚ê‚½‚½‚ß "cmTC_d7d89.dir\Debug\cmTC_d7d89.tlog\unsuccessfulbuild" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7d89.dir\Debug\\" /Fd"cmTC_d7d89.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.00.23918 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7d89.dir\Debug\\" /Fd"cmTC_d7d89.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c
+  
+  OFF64_T.c
+C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+ƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) ‚Ìƒrƒ‹ƒh‚ªI—¹‚µ‚Ü‚µ‚½ -- ¸”sB
+
+ƒrƒ‹ƒh‚É¸”s‚µ‚Ü‚µ‚½B
+
+"C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) (1) ->
+(ClCompile ƒ^[ƒQƒbƒg) -> 
+  C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+  C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+  C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+  C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+  C:\dev\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t': ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_d7d89.vcxproj]
+
+    0 ŒÂ‚ÌŒx
+    5 ƒGƒ‰[
+
+Œo‰ßŠÔ 00:00:00.47
+
+C:/dev/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: C:/dev/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_30711.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ƒo[ƒWƒ‡ƒ“ 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2016/09/07 1:52:49 ‚Éƒrƒ‹ƒh‚ğŠJn‚µ‚Ü‚µ‚½B
+ƒm[ƒh 1 ã‚ÌƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_30711.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg)B
+PrepareForBuild:
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_30711.dir\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_30711.dir\Debug\cmTC_30711.tlog\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+InitializeBuildStatus:
+  "AlwaysCreate" ‚ªw’è‚³‚ê‚½‚½‚ß "cmTC_30711.dir\Debug\cmTC_30711.tlog\unsuccessfulbuild" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=jbg_newlen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30711.dir\Debug\\" /Fd"cmTC_30711.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\sho-m\Desktop\cmake-3.6.1-win32-x86\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.00.23918 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=jbg_newlen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30711.dir\Debug\\" /Fd"cmTC_30711.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\sho-m\Desktop\cmake-3.6.1-win32-x86\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_30711.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_30711.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_30711.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_30711.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: –¢‰ğŒˆ‚ÌŠO•”ƒVƒ“ƒ{ƒ‹ _jbg_newlen ‚ªŠÖ” _main ‚ÅQÆ‚³‚ê‚Ü‚µ‚½B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_30711.vcxproj]
+C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_30711.exe : fatal error LNK1120: 1 Œ‚Ì–¢‰ğŒˆ‚ÌŠO•”QÆ [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_30711.vcxproj]
+ƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_30711.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) ‚Ìƒrƒ‹ƒh‚ªI—¹‚µ‚Ü‚µ‚½ -- ¸”sB
+
+ƒrƒ‹ƒh‚É¸”s‚µ‚Ü‚µ‚½B
+
+"C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_30711.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) (1) ->
+(Link ƒ^[ƒQƒbƒg) -> 
+  CheckFunctionExists.obj : error LNK2019: –¢‰ğŒˆ‚ÌŠO•”ƒVƒ“ƒ{ƒ‹ _jbg_newlen ‚ªŠÖ” _main ‚ÅQÆ‚³‚ê‚Ü‚µ‚½B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_30711.vcxproj]
+  C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_30711.exe : fatal error LNK1120: 1 Œ‚Ì–¢‰ğŒˆ‚ÌŠO•”QÆ [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_30711.vcxproj]
+
+    0 ŒÂ‚ÌŒx
+    2 ƒGƒ‰[
+
+Œo‰ßŠÔ 00:00:00.68
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/dev/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_760cf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ƒo[ƒWƒ‡ƒ“ 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2016/09/07 1:52:50 ‚Éƒrƒ‹ƒh‚ğŠJn‚µ‚Ü‚µ‚½B
+ƒm[ƒh 1 ã‚ÌƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_760cf.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg)B
+PrepareForBuild:
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_760cf.dir\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_760cf.dir\Debug\cmTC_760cf.tlog\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+InitializeBuildStatus:
+  "AlwaysCreate" ‚ªw’è‚³‚ê‚½‚½‚ß "cmTC_760cf.dir\Debug\cmTC_760cf.tlog\unsuccessfulbuild" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_760cf.dir\Debug\\" /Fd"cmTC_760cf.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\sho-m\Desktop\cmake-3.6.1-win32-x86\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.00.23918 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_760cf.dir\Debug\\" /Fd"cmTC_760cf.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\sho-m\Desktop\cmake-3.6.1-win32-x86\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_760cf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_760cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_760cf.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_760cf.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: –¢‰ğŒˆ‚ÌŠO•”ƒVƒ“ƒ{ƒ‹ _mmap ‚ªŠÖ” _main ‚ÅQÆ‚³‚ê‚Ü‚µ‚½B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_760cf.vcxproj]
+C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_760cf.exe : fatal error LNK1120: 1 Œ‚Ì–¢‰ğŒˆ‚ÌŠO•”QÆ [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_760cf.vcxproj]
+ƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_760cf.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) ‚Ìƒrƒ‹ƒh‚ªI—¹‚µ‚Ü‚µ‚½ -- ¸”sB
+
+ƒrƒ‹ƒh‚É¸”s‚µ‚Ü‚µ‚½B
+
+"C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_760cf.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) (1) ->
+(Link ƒ^[ƒQƒbƒg) -> 
+  CheckFunctionExists.obj : error LNK2019: –¢‰ğŒˆ‚ÌŠO•”ƒVƒ“ƒ{ƒ‹ _mmap ‚ªŠÖ” _main ‚ÅQÆ‚³‚ê‚Ü‚µ‚½B [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_760cf.vcxproj]
+  C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_760cf.exe : fatal error LNK1120: 1 Œ‚Ì–¢‰ğŒˆ‚ÌŠO•”QÆ [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_760cf.vcxproj]
+
+    0 ŒÂ‚ÌŒx
+    2 ƒGƒ‰[
+
+Œo‰ßŠÔ 00:00:00.70
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/dev/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4c9a7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ƒo[ƒWƒ‡ƒ“ 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2016/09/07 1:52:53 ‚Éƒrƒ‹ƒh‚ğŠJn‚µ‚Ü‚µ‚½B
+ƒm[ƒh 1 ã‚ÌƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_4c9a7.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg)B
+PrepareForBuild:
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_4c9a7.dir\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+  ƒfƒBƒŒƒNƒgƒŠ "cmTC_4c9a7.dir\Debug\cmTC_4c9a7.tlog\" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+InitializeBuildStatus:
+  "AlwaysCreate" ‚ªw’è‚³‚ê‚½‚½‚ß "cmTC_4c9a7.dir\Debug\cmTC_4c9a7.tlog\unsuccessfulbuild" ‚ğì¬‚µ‚Ä‚¢‚Ü‚·B
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c9a7.dir\Debug\\" /Fd"cmTC_4c9a7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.00.23918 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c9a7.dir\Debug\\" /Fd"cmTC_4c9a7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: include ƒtƒ@ƒCƒ‹‚ğŠJ‚¯‚Ü‚¹‚ñB'unistd.h':No such file or directory [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_4c9a7.vcxproj]
+ƒvƒƒWƒFƒNƒg "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_4c9a7.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) ‚Ìƒrƒ‹ƒh‚ªI—¹‚µ‚Ü‚µ‚½ -- ¸”sB
+
+ƒrƒ‹ƒh‚É¸”s‚µ‚Ü‚µ‚½B
+
+"C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_4c9a7.vcxproj" (Šù’è‚Ìƒ^[ƒQƒbƒg) (1) ->
+(ClCompile ƒ^[ƒQƒbƒg) -> 
+  C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: include ƒtƒ@ƒCƒ‹‚ğŠJ‚¯‚Ü‚¹‚ñB'unistd.h':No such file or directory [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_4c9a7.vcxproj]
+
+    0 ŒÂ‚ÌŒx
+    1 ƒGƒ‰[
+
+Œo‰ßŠÔ 00:00:00.53
+
+
+Determining if the include file C:/Users/sho-m/Anaconda3/Library/include/libpng/png.h exists failed with the following output:
+Change Dir: C:/dev/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_58ff5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2017/05/10 15:19:49 ã«ãƒ“ãƒ«ãƒ‰ã‚’é–‹å§‹ã—ã¾ã—ãŸã€‚
+ãƒãƒ¼ãƒ‰ 1 ä¸Šã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_58ff5.vcxproj" (æ—¢å®šã®ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ)ã€‚
+PrepareForBuild:
+  ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª "cmTC_58ff5.dir\Debug\" ã‚’ä½œæˆã—ã¦ã„ã¾ã™ã€‚
+  ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª "C:\dev\opencv\build\CMakeFiles\CMakeTmp\Debug\" ã‚’ä½œæˆã—ã¦ã„ã¾ã™ã€‚
+  ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª "cmTC_58ff5.dir\Debug\cmTC_58ff5.tlog\" ã‚’ä½œæˆã—ã¦ã„ã¾ã™ã€‚
+InitializeBuildStatus:
+  "AlwaysCreate" ãŒæŒ‡å®šã•ã‚ŒãŸãŸã‚ "cmTC_58ff5.dir\Debug\cmTC_58ff5.tlog\unsuccessfulbuild" ã‚’ä½œæˆã—ã¦ã„ã¾ã™ã€‚
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58ff5.dir\Debug\\" /Fd"cmTC_58ff5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue   /bigobj C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft(R) C/C++ Optimizing Compiler Version 19.00.23918 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58ff5.dir\Debug\\" /Fd"cmTC_58ff5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue   /bigobj C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: include ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã‘ã¾ã›ã‚“ã€‚'C:/Users/sho-m/Anaconda3/Library/include/libpng/png.h':No such file or directory [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_58ff5.vcxproj]
+ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ "C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_58ff5.vcxproj" (æ—¢å®šã®ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ) ã®ãƒ“ãƒ«ãƒ‰ãŒçµ‚äº†ã—ã¾ã—ãŸ -- å¤±æ•—ã€‚
+
+ãƒ“ãƒ«ãƒ‰ã«å¤±æ•—ã—ã¾ã—ãŸã€‚
+
+"C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_58ff5.vcxproj" (æ—¢å®šã®ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ) (1) ->
+(ClCompile ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ) -> 
+  C:\dev\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: include ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã‘ã¾ã›ã‚“ã€‚'C:/Users/sho-m/Anaconda3/Library/include/libpng/png.h':No such file or directory [C:\dev\opencv\build\CMakeFiles\CMakeTmp\cmTC_58ff5.vcxproj]
+
+    0 å€‹ã®è­¦å‘Š
+    1 ã‚¨ãƒ©ãƒ¼
+
+çµŒéæ™‚é–“ 00:00:00.55
+
+

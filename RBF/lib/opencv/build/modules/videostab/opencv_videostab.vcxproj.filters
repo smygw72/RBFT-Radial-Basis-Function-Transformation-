@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\deblurring.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\fast_marching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\frame_source.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\global_motion.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\inpainting.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\log.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\motion_stabilizing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\optical_flow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\outlier_rejection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\stabilizer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\sources\modules\videostab\src\wobble_suppression.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\opencv\build\modules\videostab\opencv_videostab_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\deblurring.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\fast_marching.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\fast_marching_inl.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\frame_source.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\global_motion.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\inpainting.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\log.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\motion_core.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\motion_stabilizing.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\optical_flow.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\outlier_rejection.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\ring_buffer.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\stabilizer.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\include\opencv2\videostab\wobble_suppression.hpp">
+      <Filter>Include\opencv2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\src\clp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\sources\modules\videostab\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\build\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\opencv\build\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\opencv\sources\modules\videostab\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FD8DD0AD-66AF-3ABE-AA35-B8B66029A5D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8A267F18-63AD-3F40-A9D3-0DF8AA908AA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{24A33C02-7425-3A53-AEA4-868CF63E8053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{0142A6A2-7A60-3204-A67F-2212882E5BAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{B5B58566-941C-37C1-9156-06520B74B931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\videostab">
+      <UniqueIdentifier>{F253D93D-FAA8-3A2F-AB1A-648272A47930}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
