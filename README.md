@@ -1,6 +1,7 @@
 # RBFT-Radial-Basis-Funcion-Transformation
 
 Implement of "Image warping" using RBFT(Radial Basis Function Transformation).
+Detail is at https://qiita.com/smygw72/items/ccccfea5a0de5cf3e568 (in Japanese).
 
 # System
 You can control the deformation of the image by moving the anchor.
