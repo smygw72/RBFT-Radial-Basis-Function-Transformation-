@@ -1,5 +1,0 @@
-﻿  Building Custom Rule C:/dev/opencv/sources/samples/cpp/CMakeLists.txt
-  CMake does not need to re-run because C:/dev/opencv/build/samples/cpp/CMakeFiles/generate.stamp is up-to-date.
-  LATCH_match.cpp
-  tutorial_LATCH_match.vcxproj -> C:\dev\opencv\build\bin\Release\cpp-tutorial-LATCH_match.exe
-  tutorial_LATCH_match.vcxproj -> C:/dev/opencv/build/bin/Release/cpp-tutorial-LATCH_match.pdb (Full PDB)
